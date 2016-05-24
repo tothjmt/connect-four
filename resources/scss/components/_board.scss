@@ -1,0 +1,52 @@
+.board
+{
+  .row
+  {
+    &::after
+    {
+      clear: both;
+      content: '';
+      display: table;
+    }
+  }
+
+  .cell
+  {
+    float: left;
+    height: 100px;
+    width: 100px;
+
+
+    .cell-img
+    {
+
+      .board
+      {
+        fill: $board;
+      }
+
+      .piece
+      {
+        fill: #FFFFFF;
+      }
+    }
+
+    &.player-1
+    {
+
+      .piece
+      {
+        fill: $player1Color;
+      }
+    }
+
+    &.player-2
+    {
+
+      .piece
+      {
+        fill: $player2Color;
+      }
+    }
+  }
+}

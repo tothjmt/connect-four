@@ -1,0 +1,13 @@
+// mini-config
+$primary: #1abc9c;
+$secondary: #7f8c8d;
+
+$board: yellow;
+$player1Color:#c0392b;
+$player2Color: #8e44ad;
+
+
+@import "components/elements";
+@import "components/board";
+
+@import "pages/setup";
